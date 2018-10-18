@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM skilldlabs/gitlab-runner-alpine
 
 RUN apk add --no-cache curl
 
